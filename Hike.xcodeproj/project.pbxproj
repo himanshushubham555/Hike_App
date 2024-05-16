@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4AC3FB2BE9F5DF008BF8F4 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AC3FA2BE9F5DF008BF8F4 /* MotionAnimationView.swift */; };
+		5A5DB7B02BE1128B0089D98E /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5DB7AF2BE1128B0089D98E /* CustomCircleView.swift */; };
+		5A6315EE2BA3005D0022ADA3 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6315ED2BA3005D0022ADA3 /* CustomBackgroundView.swift */; };
+		5A6315F12BA307400022ADA3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6315F02BA307400022ADA3 /* ColorExtension.swift */; };
+		5A7728B12BA4236400680E78 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7728B02BA4236400680E78 /* CustomButtonView.swift */; };
+		5AA451F32B9EDC6D00059042 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA451F22B9EDC6D00059042 /* HikeApp.swift */; };
+		5AA451F52B9EDC6D00059042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA451F42B9EDC6D00059042 /* ContentView.swift */; };
+		5AA451F72B9EDC6F00059042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA451F62B9EDC6F00059042 /* Assets.xcassets */; };
+		5AA451FA2B9EDC6F00059042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA451F92B9EDC6F00059042 /* Preview Assets.xcassets */; };
+		5AB8F0332BA05881004660E3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8F0322BA05881004660E3 /* CardView.swift */; };
+		5AF2457A2BF38B9B008D2603 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF245792BF38B9B008D2603 /* SettingsView.swift */; };
+		5AF245962BF4C3E9008D2603 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF245952BF4C3E9008D2603 /* CustomListRowView.swift */; };
+		5AFBAB382BA96C7200CA7DC2 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBAB372BA96C7200CA7DC2 /* GradientButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A4AC3FA2BE9F5DF008BF8F4 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		5A5DB7AF2BE1128B0089D98E /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		5A6315ED2BA3005D0022ADA3 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		5A6315F02BA307400022ADA3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		5A7728B02BA4236400680E78 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		5AA451EF2B9EDC6D00059042 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA451F22B9EDC6D00059042 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
+		5AA451F42B9EDC6D00059042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AA451F62B9EDC6F00059042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA451F92B9EDC6F00059042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AB8F0322BA05881004660E3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5AF245792BF38B9B008D2603 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5AF245952BF4C3E9008D2603 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		5AFBAB372BA96C7200CA7DC2 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA451EC2B9EDC6D00059042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6315EC2BA2FFEC0022ADA3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5AB8F0322BA05881004660E3 /* CardView.swift */,
+				5A4AC3FA2BE9F5DF008BF8F4 /* MotionAnimationView.swift */,
+				5A5DB7AF2BE1128B0089D98E /* CustomCircleView.swift */,
+				5A6315ED2BA3005D0022ADA3 /* CustomBackgroundView.swift */,
+				5A7728B02BA4236400680E78 /* CustomButtonView.swift */,
+				5AF245952BF4C3E9008D2603 /* CustomListRowView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5A6315EF2BA307270022ADA3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5A6315F02BA307400022ADA3 /* ColorExtension.swift */,
+				5AFBAB372BA96C7200CA7DC2 /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5AA451E62B9EDC6D00059042 = {
+			isa = PBXGroup;
+			children = (
+				5AA451F12B9EDC6D00059042 /* Hike */,
+				5AA451F02B9EDC6D00059042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA451F02B9EDC6D00059042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA451EF2B9EDC6D00059042 /* Hike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA451F12B9EDC6D00059042 /* Hike */ = {
+			isa = PBXGroup;
+			children = (
+				5A6315EF2BA307270022ADA3 /* Utility */,
+				5AA451F22B9EDC6D00059042 /* HikeApp.swift */,
+				5AF245782BF38B53008D2603 /* Screen */,
+				5AA451F62B9EDC6F00059042 /* Assets.xcassets */,
+				5AA451F82B9EDC6F00059042 /* Preview Content */,
+				5A6315EC2BA2FFEC0022ADA3 /* Component */,
+			);
+			path = Hike;
+			sourceTree = "<group>";
+		};
+		5AA451F82B9EDC6F00059042 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA451F92B9EDC6F00059042 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AF245782BF38B53008D2603 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5AA451F42B9EDC6D00059042 /* ContentView.swift */,
+				5AF245792BF38B9B008D2603 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA451EE2B9EDC6D00059042 /* Hike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA451FD2B9EDC6F00059042 /* Build configuration list for PBXNativeTarget "Hike" */;
+			buildPhases = (
+				5AA451EB2B9EDC6D00059042 /* Sources */,
+				5AA451EC2B9EDC6D00059042 /* Frameworks */,
+				5AA451ED2B9EDC6D00059042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hike;
+			productName = Hike;
+			productReference = 5AA451EF2B9EDC6D00059042 /* Hike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA451E72B9EDC6D00059042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5AA451EE2B9EDC6D00059042 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5AA451EA2B9EDC6D00059042 /* Build configuration list for PBXProject "Hike" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA451E62B9EDC6D00059042;
+			productRefGroup = 5AA451F02B9EDC6D00059042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA451EE2B9EDC6D00059042 /* Hike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA451ED2B9EDC6D00059042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA451FA2B9EDC6F00059042 /* Preview Assets.xcassets in Resources */,
+				5AA451F72B9EDC6F00059042 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA451EB2B9EDC6D00059042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7728B12BA4236400680E78 /* CustomButtonView.swift in Sources */,
+				5A6315F12BA307400022ADA3 /* ColorExtension.swift in Sources */,
+				5A5DB7B02BE1128B0089D98E /* CustomCircleView.swift in Sources */,
+				5AA451F52B9EDC6D00059042 /* ContentView.swift in Sources */,
+				5AF245962BF4C3E9008D2603 /* CustomListRowView.swift in Sources */,
+				5AB8F0332BA05881004660E3 /* CardView.swift in Sources */,
+				5AA451F32B9EDC6D00059042 /* HikeApp.swift in Sources */,
+				5A6315EE2BA3005D0022ADA3 /* CustomBackgroundView.swift in Sources */,
+				5AFBAB382BA96C7200CA7DC2 /* GradientButtonStyle.swift in Sources */,
+				5A4AC3FB2BE9F5DF008BF8F4 /* MotionAnimationView.swift in Sources */,
+				5AF2457A2BF38B9B008D2603 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AA451FB2B9EDC6F00059042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA451FC2B9EDC6F00059042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA451FE2B9EDC6F00059042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom AppIcon-Backpack AppIcon-Campfire AppIcon-Camera";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hike-him.Hike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA451FF2B9EDC6F00059042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom AppIcon-Backpack AppIcon-Campfire AppIcon-Camera";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hike-him.Hike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA451EA2B9EDC6D00059042 /* Build configuration list for PBXProject "Hike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA451FB2B9EDC6F00059042 /* Debug */,
+				5AA451FC2B9EDC6F00059042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA451FD2B9EDC6F00059042 /* Build configuration list for PBXNativeTarget "Hike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA451FE2B9EDC6F00059042 /* Debug */,
+				5AA451FF2B9EDC6F00059042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA451E72B9EDC6D00059042 /* Project object */;
+}
